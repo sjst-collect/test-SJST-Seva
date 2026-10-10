@@ -9,7 +9,7 @@ export const FRONTEND_CONFIG = {
 
   // Used only to retrieve the public configuration.
   configBootstrapUrl:
-    'https://script.google.com/macros/s/AKfycbxglEayhs9nPXWpa43RB5u0DpJl6FVJa9jH8XWL6H12x-ax8H4oOQD23RewCBRcxpfSjw/exec',
+    'https://script.google.com/macros/s/AKfycbxjh5zGEfC_Ny22DYwpGFUWMiKW4iknI-y4gXomz3WK5ezLIDpHmwLQC4rfltthYuca/exec',
 
   assets: {
     logoPath: 'images/Logo.jpeg',
