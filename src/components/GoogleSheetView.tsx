@@ -237,7 +237,6 @@ export function GoogleSheetView({
 
   const handleExecuteConfirm = async () => {
     if (!confirmingDonation) {
-      alert('DEBUG 2 — STOP: confirmingDonation is NULL');
       return;
     }
 
@@ -649,7 +648,6 @@ export function GoogleSheetView({
                               type="button"
                               onClick={async () => {
                                 if (!onRepayment) {
-                                  alert('Repayment handler is not available.');
                                   return;
                                 }
 
