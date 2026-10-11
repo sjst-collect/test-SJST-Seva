@@ -204,7 +204,9 @@ export async function loadAppConfig(): Promise<PublicAppConfig> {
 
 
   cachedConfig = config;
-
+alert(
+  `DEBUG CONFIG\nEnvironment: ${FRONTEND_CONFIG.environment}\nBootstrap URL: ${FRONTEND_CONFIG.configBootstrapUrl}\nBackend URL: ${config.api.backendUrl}`
+);
 
   return cachedConfig;
 
