@@ -67,13 +67,6 @@ class AppErrorBoundary extends React.Component<
       error,
       errorInfo
     );
-
-    alert(
-      'SJST APPLICATION ERROR\n\n' +
-      message +
-      '\n\n' +
-      'Please send this exact error message to Admin.'
-    );
   }
 
   render() {
